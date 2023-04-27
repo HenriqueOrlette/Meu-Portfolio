@@ -16,6 +16,7 @@
 
 html{
     background-color: #141C3A;
+    scroll-behavior: smooth;
 }
 
 .texto{
@@ -43,13 +44,13 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .foto img{
     width: 100px;
     border-radius: 50%;
-    box-shadow: 0px 0px 130px rgb(0, 204, 126);
+    box-shadow: 0px 0px 170px rgb(0, 204, 126);
 }
 
 .botton{
@@ -59,9 +60,9 @@ h2{
 }
 .botoes{
     display: grid;
-    margin-top: 100px;
+    margin-top: 70px;
     width: 60%;
-    height: 300px;
+    height: 350px;
 }
 
 button{
@@ -90,15 +91,30 @@ button{
     box-shadow: 5px 5px 10px  rgba(0, 177, 109, 0.705);
 }
 
+#botao4{
+    border-radius: 10px;
+    background-color: #141C3A; 
+    border-color: #09FF90;
+    box-shadow: 5px 5px 10px  rgba(0, 177, 109, 0.705);
+}
+
 button a{
     text-decoration: none;
     color: #09FF90;
     font-size: 20px;
     font-family: Kanit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
+#Sobremim{
+    margin-bottom: 100px;
+}
 .titulo{
-    margin-left: 38px;
+    margin-left: 6vw;
     margin-bottom: 40px;
 }
 
@@ -107,7 +123,7 @@ button a{
 }
 
 .texto2{
-    margin-left: 38px;
+    margin-left: 6vw;
     width: 300px;
 }
 
@@ -117,9 +133,9 @@ button a{
 }
 
 .texto3{
-    margin-left: 38px;
+    margin-left: 6vw;
     width: 150px;
-}
+}       
 
 .texto3 h3{
     display: flex;
@@ -127,9 +143,110 @@ button a{
 }
 
 .imagem img{
-    background-image: url(Developer\ activity-bro.png);
-    width: 200px;
+    width: 195px;
     position: absolute;
-    right: 0;
-    top: 880px;
+    right: 21px;
+    top: 890px;
+
+}
+
+#Serviços{
+    margin-bottom: 100px;
+}
+
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.port1 img{
+    width: 150px;
+    box-shadow: 0px 0px 15px rgb(0, 204, 126);
+    
+}
+
+.port2 img{
+    width: 150px;
+    box-shadow: 0px 0px 15px rgb(0, 204, 126);
+}
+
+
+.port3 img{
+    width: 150px;
+    box-shadow: 0px 0px 15px rgb(0, 204, 126);
+    position: relative;
+    top: -34px;
+    
+}
+
+.port4 img{
+    width: 150px;
+    box-shadow: 0px 0px 15px rgb(0, 204, 126);
+}
+
+.port1 h2{
+    display: flex;
+    justify-content: center;
+    background-color: #09FF90
+}
+
+.port2 h2{
+    display: flex;
+    justify-content: center;
+    background-color: #09FF90
+}
+
+.port3 h2{
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #09FF90
+}
+
+.port4 h2{
+    display: flex;
+    justify-content: center;
+    background-color: #09FF90
+}
+
+#Portfólio{
+    margin-bottom: 100px;
+}
+
+#Portfólio h2{
+    color: #141C3A
+}
+
+
+
+.icon{
+    display: flex;
+}
+
+.icon img{
+    display: flex;
+    width: 90px;
+
+}
+
+.topicons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.bottonicons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.referencia a{
+    color: #141C3A;
 }
